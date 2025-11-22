@@ -90,7 +90,7 @@ Le serveur crée le registre et publie le service :
 ```java
 LocateRegistry.createRegistry(1099);
 IConversion service = new ConversionImpl();
-Naming.rebind("rmi://localhost:1099/ConversionService", service);
+Naming.rebind("rmi://localhost:1099/ConversionService", conversionService);
 ```
 
 ### Client RMI
@@ -99,7 +99,7 @@ Le client localise et utilise le service :
 
 ```java
 IConversion service = (IConversion) Naming.lookup("rmi://localhost:1099/ConversionService");
-double resultat = service.convertirMontant(500);
+double resultat = conversionService.convertirMontant(500);
 ```
 
 ---
