@@ -89,7 +89,7 @@ Le serveur crée le registre et publie le service :
 
 ```java
 LocateRegistry.createRegistry(1099);
-IConversion service = new ConversionImpl();
+IConversion conversionService = new ConversionImpl();
 Naming.rebind("rmi://localhost:1099/ConversionService", conversionService);
 ```
 
