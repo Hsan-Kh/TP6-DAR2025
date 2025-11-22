@@ -55,47 +55,6 @@ git clone https://github.com/Hsan-Kh/TP-DAR2025
 cd KhecharemHsan_LSI3_DevAppReparties_TP6
 ```
 
-#### Lancer le Serveur
-
-```bash
-java -jar rmi-conversion-server/target/ConversionServer.jar
-```
-
-#### Lancer le Client (dans une autre fenêtre)
-
-```bash
-java -jar rmi-conversion-client/target/ConversionClient.jar
-```
-
----
-
-## Utilisation
-
-### Démarrage du Serveur
-
-Sortie attendue :
-
-
-### Démarrage du Client
-
-Sortie attendue :
-
-```
-Connexion au serveur RMI...
-Connexion établie avec succès
-
---- Demande de conversion ---
-Montant à convertir : 500.0 EUR
-
---- Résultat de la conversion ---
-500.0 EUR = 1675.0 TND
-
---- Tests supplémentaires ---
-100.0 EUR = 335.0 TND
-1000.0 EUR = 3350.0 TND
-250.5 EUR = 839.175 TND
-```
-
 ---
 
 ## Concepts RMI Appliqués
