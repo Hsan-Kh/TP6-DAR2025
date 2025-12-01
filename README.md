@@ -130,7 +130,6 @@ Ce TP a permis de valider les compétences suivantes :
 
 ---
 
-**Informations de Contact**
 
 **Étudiant** : Hsan KHECHAREM
 
