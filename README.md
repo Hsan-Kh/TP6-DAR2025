@@ -62,7 +62,6 @@ RMIBanque_Server/
 
 RMIBanque_Client/
 ├── src/main/java/rmiClient/  # Client (Lookup JNDI)
-├── lib/                      # Dépendance JAR (Stubs)
 └── src/main/resources/       # jndi.properties
 ```
 
